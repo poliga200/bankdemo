@@ -1,13 +1,13 @@
-package dao;
+package bank.bankdemo.dao;
 
 import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
-import entity.BankAccount;
-import exception.BankTransactionException;
-import model.BankAccountInfo;
+import bank.bankdemo.entity.BankAccount;
+import bank.bankdemo.exception.BankTransactionException;
+import bank.bankdemo.model.BankAccountInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;

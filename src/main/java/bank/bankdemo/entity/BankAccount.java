@@ -1,4 +1,4 @@
-package entity;
+package bank.bankdemo.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

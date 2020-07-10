@@ -1,11 +1,11 @@
-package controller;
+package bank.bankdemo.controller;
 
 import java.util.List;
 
-import dao.BankAccountDAO;
-import exception.BankTransactionException;
-import form.SendMoneyForm;
-import model.BankAccountInfo;
+import bank.bankdemo.dao.BankAccountDAO;
+import bank.bankdemo.exception.BankTransactionException;
+import bank.bankdemo.form.SendMoneyForm;
+import bank.bankdemo.model.BankAccountInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

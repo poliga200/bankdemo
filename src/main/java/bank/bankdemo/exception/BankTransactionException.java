@@ -1,4 +1,4 @@
-package exception;
+package bank.bankdemo.exception;
 
 public class BankTransactionException extends Exception {
 

@@ -1,4 +1,4 @@
-package model;
+package bank.bankdemo.model;
 
 public class BankAccountInfo {
     private Long id;

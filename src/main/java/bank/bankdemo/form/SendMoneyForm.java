@@ -1,4 +1,4 @@
-package form;
+package bank.bankdemo.form;
 
 public class SendMoneyForm {
 
